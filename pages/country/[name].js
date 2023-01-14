@@ -18,12 +18,12 @@ export default function Country({dataCountry}) {
                 <div key={c.name.common} className='d-flex flex-wrap justiy-content-center mx-auto mt-5' style={{width: '80%'}}>
                     <Image
                         src={c.flags.svg}
-                        width={500}
+                        width={300}
                         height={400}
                         alt={c.name.common}
                     />
                     <div className="mt-5 ms-4">
-                        <h4>{ c.name.common }</h4>
+                        <h4 className="text-center">{ c.name.common }</h4>
                     </div>
                 </div>
             ))
